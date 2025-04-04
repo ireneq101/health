@@ -480,7 +480,7 @@ const Home = () => {
             {images.map((img, index) => (
               <div
                 key={index}
-                className={`relative w-33 lg:w-50 lg:h-90m md:w-65 overflow-hidden rounded-lg shadow-lg transform transition duration-300 hover:scale-105 ${
+                className={`relative w-30 lg:w-50 lg:h-90m md:w-65 overflow-hidden rounded-lg shadow-lg transform transition duration-300 hover:scale-105 ${
                   index % 2 === 0 ? "translate-y-6" : ""
                 }`}
               >
