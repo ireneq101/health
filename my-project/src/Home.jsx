@@ -168,7 +168,7 @@ const Home = () => {
 
       {/* Hero Section */}
       <section
-        className="h-screen bg-[url(Images/team.jpeg)] bg-cover bg-center bg-blend-overlay bg-zinc-900 bg-fixed  flex items-center justify-center text-white text-center p-10"
+        className="h-screen bg-[url(Images/femm.jpg)] bg-cover bg-center bg-blend-overlay bg-zinc-900 bg-fixed  flex items-center justify-center text-white text-center p-10"
         id="home"
       >
         <div className="max-w-7xl">
