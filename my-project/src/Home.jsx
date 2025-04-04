@@ -168,7 +168,7 @@ const Home = () => {
 
       {/* Hero Section */}
       <section
-        className="h-screen bg-[url(Images/femm.jpg)] bg-cover bg-center bg-blend-overlay bg-zinc-900 bg-fixed  flex items-center justify-center text-white text-center p-10"
+        className="bg-custom h-screen bg-[url('Images/team.jpeg')] bg-cover bg-center bg-blend-overlay bg-zinc-600 bg-fixed  flex items-center justify-center text-white text-center p-10"
         id="home"
       >
         <div className="max-w-7xl">
@@ -423,7 +423,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="h-max bg-[url(Images/wealth.png)] bg-cover bg-center bg-blend-overlay bg-zinc-800 flex items-center justify-center text-white text-center py-50 mt-10">
+      <section className="h-max bg-[url('Images/wealth.png')] bg-cover bg-center bg-blend-overlay bg-zinc-800 flex items-center justify-center text-white text-center py-50 mt-10">
         <div className="relative z-10 max-w-6xl text-left px-8">
           <h2 className="lg:text-4xl text-3xl font-semibold mb-6 text-transform: uppercase text-white">
             Transform Household Wellness into{" "}
