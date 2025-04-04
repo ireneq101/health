@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 .bg-custom {
-  background-image: url("/images/team.jpeg"); /* Absolute path */
+  background-image: url("./Images/team.jpeg"); /* Absolute path */
   background-blend-mode: overlay;
   background-color: rgb(24 24 27); /* Tailwind bg-zinc-900 */
 }
