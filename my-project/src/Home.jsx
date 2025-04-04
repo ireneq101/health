@@ -6,6 +6,7 @@ import { FaGlobe, FaBriefcase } from "react-icons/fa";
 import { GiReceiveMoney } from "react-icons/gi";
 import { PiAirplaneTiltFill } from "react-icons/pi";
 import "./Styles.css";
+import "./assets/Home.css"
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
   const toggleSidebar = () => {
