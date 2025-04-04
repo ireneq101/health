@@ -129,7 +129,7 @@ const Home = () => {
 
         {/* Mobile Menu */}
         {isOpen && (
-          <ul className="md:hidden flex flex-col items-center justify-self-end space-y-13 bg-blue-50 p-4 rounded-lg text-gray-700 font-semibold lg:text-xl w-50 h-90">
+          <ul className="md:hidden flex flex-col items-center justify-self-end space-y-15 bg-blue-50 p-4 rounded-lg text-gray-700 font-semibold lg:text-xl w-50 h-screen z-99999999">
             <li>
               <a
                 href="#home"
@@ -476,11 +476,11 @@ const Home = () => {
             </ul>
           </div>
 
-          <div className="grid grid-cols-3 gap-16 lg:gap-8 md:h-full">
+          <div className="grid grid-cols-3 gap-10 lg:gap-8 md:h-full">
             {images.map((img, index) => (
               <div
                 key={index}
-                className={`relative w-40 lg:w-50 lg:h-90m md:w-65 overflow-hidden rounded-lg shadow-lg transform transition duration-300 hover:scale-105 ${
+                className={`relative w-33 lg:w-50 lg:h-90m md:w-65 overflow-hidden rounded-lg shadow-lg transform transition duration-300 hover:scale-105 ${
                   index % 2 === 0 ? "translate-y-6" : ""
                 }`}
               >
