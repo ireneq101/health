@@ -6,7 +6,7 @@ import { FaGlobe, FaBriefcase } from "react-icons/fa";
 import { GiReceiveMoney } from "react-icons/gi";
 import { PiAirplaneTiltFill } from "react-icons/pi";
 import "./Styles.css";
-import "./assets/Home.css"
+import "./Home.css"
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
   const toggleSidebar = () => {
@@ -169,7 +169,7 @@ const Home = () => {
 
       {/* Hero Section */}
       <section
-        className="bg-custom h-screen bg-[url('Images/team.jpeg')] bg-fixed  flex items-center justify-center text-white text-center p-10"
+        className="bg-custom h-screen bg-fixed  flex items-center justify-center text-white text-center p-10"
         id="home"
       >
         <div className="max-w-7xl">
