@@ -168,13 +168,13 @@ const Home = () => {
 
       {/* Hero Section */}
       <section
-        className="bg-custom h-screen bg-[url('Images/team.jpeg')] bg-cover bg-center bg-blend-overlay bg-zinc-600 bg-fixed  flex items-center justify-center text-white text-center p-10"
+        className="bg-custom h-screen bg-[url('Images/old.jpg')] bg-cover bg-center bg-blend-overlay bg-zinc-600 bg-fixed  flex items-center justify-center text-white text-center p-10"
         id="home"
       >
         <div className="max-w-7xl">
           <h1 className="lg:text-5xl text-4xl font-bold text-transform: uppercase">
             The <span className="text-green-500">Network</span> Marketing
-            Revolution is Here.
+            Revolution is.
           </h1>
           <p className="lg:text-xl mt-4">
             For Decades, MLM has trapped People with a broken system-PV Chasing,
