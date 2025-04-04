@@ -6,7 +6,7 @@ import { FaGlobe, FaBriefcase } from "react-icons/fa";
 import { GiReceiveMoney } from "react-icons/gi";
 import { PiAirplaneTiltFill } from "react-icons/pi";
 import "./Styles.css";
-import "./Home.css"
+// import "./Home.css"
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
   const toggleSidebar = () => {
@@ -85,11 +85,13 @@ const Home = () => {
   const images = ["Images/family.jpg", "Images/friends.jpg", "Images/men.jpg"];
 
   return (
-    <div className="font-sans bg-blue-50 scroll-smooth">
-      <nav className="bg-blue-50 h-25 text-gray-700 lg:p-3 lg:px-15 sticky top-0 z-50 scroll-m-96">
+    <div className="font-sans bg-blue-50">
+      <nav className="bg-blue-50 h-25 text-gray-700 lg:p-2 lg:px-15 sticky top-0 z-50 scroll-m-96">
         <div className="container mx-auto flex justify-between items-center py-3 px-5 lg:p-0">
           <div className="w-50">
-            <img className="w-25" src="Images/logo.png" alt="" />
+            <a href="#home">
+              <img className="w-25" src="Images/logo.png" alt="" />
+            </a>
           </div>
 
           {/* Desktop Menu */}
@@ -169,27 +171,30 @@ const Home = () => {
 
       {/* Hero Section */}
       <section
-        className="bg-custom h-screen bg-fixed  flex items-center justify-center text-white text-center p-10"
+        className="h-screen bg-[url('/Images/team.jpeg')] bg-cover bg-center bg-no-repeat bg-blend-overlay bg-zinc-900 bg-fixed  flex items-center justify-center text-white text-center p-10"
         id="home"
       >
         <div className="max-w-7xl">
           <h1 className="lg:text-5xl text-4xl font-bold text-transform: uppercase">
-            The <span className="text-green-500">Network</span> Marketing
-            Revolution is here.
+            The{" "}
+            <span className="text-green-500 text-transform: italic">
+              Network
+            </span>{" "}
+            Marketing Revolution is here.
           </h1>
           <p className="lg:text-xl mt-4">
             For Decades, MLM has trapped People with a broken system-PV Chasing,
             BV Quotas, and Fake Ranks…whiles the real profits went to the “Top
             1%. But Today…the System is Dead...
           </p>
-          <p className="text-green-500 lg:text-5xl text-2xl mt-14 font-bold">
+          <p className="text-green-500 lg:text-5xl text-2xl mt-14 font-bold text-transform: italic">
             ENOUGH
           </p>
         </div>
       </section>
 
       {/* first section */}
-      <section className="px-10 py-15 lg:px-36 max-w-8xl mx-auto text-center bg-green-200">
+      <section className="px-10 py-20 lg:px-36 max-w-8xl mx-auto text-center bg-green-200">
         {/* Left Text Section */}
         <div className="flex flex-col md:flex-row gap-25 md:10">
           <div className="md:w-1/2 text-left">
@@ -240,7 +245,7 @@ const Home = () => {
 
       {/* second section */}
       <section
-        className="py-16 px-10 max-w-6xl mx-auto items-center"
+        className="py-20 px-10 max-w-6xl mx-auto items-center"
         id="about"
       >
         {/* Text Section */}
@@ -370,7 +375,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="p-8 text-center" id="service">
+      <section className="py-16 p-8 text-center" id="service">
         <div className="max-w-6xl mx-auto mb-20 mt-10">
           <div>
             <h2 className="lg:text-4xl text-3xl font-semibold text-gray-900 mb-2 text-transform: uppercase">
@@ -424,7 +429,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="h-max bg-[url('Images/wealth.png')] bg-cover bg-center bg-blend-overlay bg-zinc-800 flex items-center justify-center text-white text-center py-50 mt-10">
+      <section className="h-max bg-[url('/Images/wealth.png')] bg-cover bg-center bg-blend-overlay bg-zinc-800 bg-no-repeat flex items-center justify-center text-white text-center py-50 mt-10">
         <div className="relative z-10 max-w-6xl text-left px-8">
           <h2 className="lg:text-4xl text-3xl font-semibold mb-6 text-transform: uppercase text-white">
             Transform Household Wellness into{" "}
