@@ -187,7 +187,7 @@ const Home = () => {
             BV Quotas, and Fake Ranks…whiles the real profits went to the “Top
             1%. But Today…the System is Dead...
           </p>
-          <p className="text-green-500 lg:text-5xl text-2xl mt-14 font-bold text-transform: italic">
+          <p className="text-green-500 lg:text-5xl text-2xl mt-14 font-bold">
             ENOUGH
           </p>
         </div>
