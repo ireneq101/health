@@ -144,45 +144,60 @@ const Home = () => {
 
         {/* Mobile Menu */}
         {isOpen && (
-          <ul className="md:hidden flex flex-col items-center justify-self-end space-y-15 bg-blue-50 p-4 rounded-lg text-gray-700 font-semibold lg:text-xl w-50 h-screen z-99999999">
+          <ul className="md:hidden flex flex-col items-center justify-self-end space-y-10 bg-blue-50 p-4 rounded-lg text-gray-700 font-semibold lg:text-xl w-65 h-screen z-99999999">
             <li>
               <a
                 href="#home"
-                className="hover:text-green-600 lg:text-xl text-2xl"
+                className="hover:text-green-600 lg:text-xl text-xl"
                 onClick={toggleSidebar}
               >
                 Home
               </a>
             </li>
             <li>
-              <a href="#about" className="hover:text-green-600 lg:text-xl">
+              <a
+                href="#about"
+                className="hover:text-green-600 lg:text-xl text-xl"
+              >
                 About-Us
               </a>
             </li>
             <li>
-              <a href="#service" className="hover:text-green-600 lg:text-xl">
+              <a
+                href="#service"
+                className="hover:text-green-600 lg:text-xl text-xl"
+              >
                 Services
               </a>
             </li>
             <li>
-              <a href="#service" className="hover:text-green-600 lg:text-xl">
+              <a
+                href="#service"
+                className="hover:text-green-600 lg:text-xl text-xl"
+              >
                 Product Suite
               </a>
             </li>
             <li>
-              <a href="#service" className="hover:text-green-600 lg:text-xl">
+              <a
+                href="#service"
+                className="hover:text-green-600 lg:text-xl text-xl"
+              >
                 Blog
               </a>
             </li>
             <li>
-              <a href="#service" className="hover:text-green-600 lg:text-xl">
+              <a
+                href="#service"
+                className="hover:text-green-600 lg:text-xl text-xl"
+              >
                 Business Opportunity: How It Works
               </a>
             </li>
             <button>
               <a
                 href="#contact"
-                className="bg-green-500 hover:bg-green-600 transition-all rounded-lg px-5 py-3 text-white lg:text-xl"
+                className="bg-green-500 hover:bg-green-600 transition-all rounded-lg px-5 py-3 text-white lg:text-xl text-xl"
               >
                 Get in Touch
               </a>
