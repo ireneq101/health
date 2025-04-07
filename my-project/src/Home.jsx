@@ -6,7 +6,7 @@ import { FaGlobe, FaBriefcase } from "react-icons/fa";
 import { GiReceiveMoney } from "react-icons/gi";
 import { PiAirplaneTiltFill } from "react-icons/pi";
 import "./Styles.css";
-// import "./Home.css"
+
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
   const toggleSidebar = () => {
@@ -97,24 +97,39 @@ const Home = () => {
           {/* Desktop Menu */}
           <ul className="hidden md:flex space-x-6 font-semibold text-gray-700 lg:text-xl">
             <li>
-              <a href="#home" className="hover:text-green-600 lg:text-2xl">
+              <a href="#home" className="hover:text-green-600 lg:text-xl">
                 Home
               </a>
             </li>
             <li>
-              <a href="#about" className="hover:text-green-600 lg:text-2xl">
-                About
+              <a href="#about" className="hover:text-green-600 lg:text-xl">
+                About-Us
               </a>
             </li>
             <li>
-              <a href="#service" className="hover:text-green-600 lg:text-2xl">
+              <a href="#service" className="hover:text-green-600 lg:text-xl">
                 Services
+              </a>
+            </li>
+            <li>
+              <a href="#service" className="hover:text-green-600 lg:text-xl">
+                Product Suite
+              </a>
+            </li>
+            <li>
+              <a href="#service" className="hover:text-green-600 lg:text-xl">
+                Blog
+              </a>
+            </li>
+            <li>
+              <a href="#service" className="hover:text-green-600 lg:text-xl">
+                Business Opportunity: How It Works
               </a>
             </li>
             <button>
               <a
                 href="#contact"
-                className="bg-green-500 hover:bg-green-600 transition-all rounded-lg px-5 py-3 text-white lg:text-2xl"
+                className="bg-green-500 hover:bg-green-600 transition-all rounded-lg px-5 py-3 text-white lg:text-xl"
               >
                 Get in Touch
               </a>
@@ -145,7 +160,7 @@ const Home = () => {
                 className="hover:text-green-600 lg:text-xl text-2xl"
                 onClick={toggleSidebar}
               >
-                About
+                About us
               </a>
             </li>
             <li>
@@ -171,7 +186,7 @@ const Home = () => {
 
       {/* Hero Section */}
       <section
-        className="h-screen bg-[url('/Images/team.jpeg')] bg-cover bg-center bg-no-repeat bg-blend-overlay bg-zinc-900 bg-fixed  flex items-center justify-center text-white text-center p-10"
+        className="h-screen bg-[url('/Images/team.jpeg')] bg-cover bg-center bg-no-repeat bg-blend-overlay bg-zinc-700 bg-fixed  flex items-center justify-center text-white text-center p-10"
         id="home"
       >
         <div className="max-w-7xl">
@@ -188,7 +203,7 @@ const Home = () => {
             1%. But Today…the System is Dead...
           </p>
           <p className="text-green-500 lg:text-5xl text-2xl mt-14 font-bold">
-            ENOUGH
+            ENOUGH!
           </p>
         </div>
       </section>
@@ -202,11 +217,11 @@ const Home = () => {
               BREAKING:
             </h2>
             <p className="text-gray-700 lg:text-xl">
-              Rich & Well Wave 5 Model just made every Outdated MLM Introduction
-              of the first true Evolution in Network Marketing. *NO PV *NO BV
-              *NO Multiple Registrations *NO Monthly Targets *NO Inventory
-              Loading *NO Forced Leg Balancing *NO Hype *NO False Promises *NO
-              Fake Rank Promotions
+              Rich & Well Wave 5 Model just made every Outdated MLM Rule
+              obsolete with the Introduction of the first true Evolution in
+              Network Marketing: <br /> *NO PV *NO BV *NO Multiple Registrations
+              *NO Monthly Targets *NO Inventory Loading *NO Forced Leg Balancing
+              *NO Hype *NO False Promises *NO Fake Rank Promotions
             </p>
           </div>
 
@@ -542,9 +557,10 @@ const Home = () => {
           </h2>
           <ul className="space-y-4 text-gray-700 text-lg text-center m-auto">
             {[
-              "Instant Commissions (No Waiting for Qualifications).",
-              "Real Scalability (No Artificial Caps).",
-              "Low Risk-High Reward (No Financial Traps).",
+              "Zero Effort : We handle all Investing-You reap all the Rewards.",
+              "No Upfront Costs: Your Loyalty is Your Capital.",
+              "Diversified Safety: Investments Spread across 20+ Asset Classes to Mitigate Risk.",
+              "Passive for Life: Earn While You Sleep, Travel, or Pursue Passions",
             ].map((feature, index) => (
               <>
                 <li key={index} className="flex items-center lg:text-xl gap-2">
@@ -565,13 +581,15 @@ const Home = () => {
           >
             THE PROMISE
           </h2>
-          <p className="text-gray-900 lg:text-xl">
-            This isn't a Side Hustle-It's your Exit Ticket from the Grind.{" "}
-            <br />
-          </p>
-          <p className="mt-4 text-gray-900 lg:text-xl">
-            Retire Early,Retire Rich,and Leave a Legacy that Outlives You.
-          </p>
+          <div className="m-auto w-xl">
+            <p className="text-gray-900 lg:text-xl text-left">
+              This isn't a Side Hustle-It's your Exit Ticket from the Grind.{" "}
+              <br />
+            </p>
+            <p className="mt-4 text-gray-900 lg:text-xl text-left">
+              Retire Early,Retire Rich,and Leave a Legacy that Outlives You.
+            </p>
+          </div>
         </div>
       </section>
 
@@ -579,7 +597,7 @@ const Home = () => {
       <footer className="bg-green-950 text-center" id="contact">
         <div className="flex flex-col md:flex-row gap-15 py-10 px-10 text-center">
           <div className="md:w-1/2 text-white text-left ps-7">
-            <div className="w-60 mb-6">
+            <div className="w-100 mb-6">
               <img src="Images/official-logo.png" alt="" srcset="" />
             </div>
             <h2 className="lg:text-4xl text-3xl font-semibold mb-6 text-transform: uppercase">
