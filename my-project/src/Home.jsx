@@ -155,27 +155,34 @@ const Home = () => {
               </a>
             </li>
             <li>
-              <a
-                href="#about"
-                className="hover:text-green-600 lg:text-xl text-2xl"
-                onClick={toggleSidebar}
-              >
-                About us
+              <a href="#about" className="hover:text-green-600 lg:text-xl">
+                About-Us
               </a>
             </li>
             <li>
-              <a
-                href="#service"
-                className="hover:text-green-600 lg:text-xl text-2xl"
-                onClick={toggleSidebar}
-              >
+              <a href="#service" className="hover:text-green-600 lg:text-xl">
                 Services
+              </a>
+            </li>
+            <li>
+              <a href="#service" className="hover:text-green-600 lg:text-xl">
+                Product Suite
+              </a>
+            </li>
+            <li>
+              <a href="#service" className="hover:text-green-600 lg:text-xl">
+                Blog
+              </a>
+            </li>
+            <li>
+              <a href="#service" className="hover:text-green-600 lg:text-xl">
+                Business Opportunity: How It Works
               </a>
             </li>
             <button>
               <a
                 href="#contact"
-                className="bg-green-500 hover:bg-green-600 transition-all rounded-lg px-5 py-3 text-white lg:text-2xl text-xl"
+                className="bg-green-500 hover:bg-green-600 transition-all rounded-lg px-5 py-3 text-white lg:text-xl"
               >
                 Get in Touch
               </a>
