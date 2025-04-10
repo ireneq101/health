@@ -158,6 +158,7 @@ const Home = () => {
               <a
                 href="#about"
                 className="hover:text-green-600 lg:text-xl text-xl"
+                onClick={toggleSidebar}
               >
                 About-Us
               </a>
@@ -166,6 +167,7 @@ const Home = () => {
               <a
                 href="#service"
                 className="hover:text-green-600 lg:text-xl text-xl"
+                onClick={toggleSidebar}
               >
                 Services
               </a>
@@ -174,6 +176,7 @@ const Home = () => {
               <a
                 href="#service"
                 className="hover:text-green-600 lg:text-xl text-xl"
+                onClick={toggleSidebar}
               >
                 Product Suite
               </a>
@@ -182,6 +185,7 @@ const Home = () => {
               <a
                 href="#service"
                 className="hover:text-green-600 lg:text-xl text-xl"
+                onClick={toggleSidebar}
               >
                 Blog
               </a>
@@ -190,6 +194,7 @@ const Home = () => {
               <a
                 href="#service"
                 className="hover:text-green-600 lg:text-xl text-xl"
+                onClick={toggleSidebar}
               >
                 Business Opportunity: How It Works
               </a>
@@ -198,6 +203,7 @@ const Home = () => {
               <a
                 href="#contact"
                 className="bg-green-500 hover:bg-green-600 transition-all rounded-lg px-5 py-3 text-white lg:text-xl text-xl"
+                onClick={toggleSidebar}
               >
                 Get in Touch
               </a>
