@@ -95,7 +95,7 @@ const Home = () => {
           </div>
 
           {/* Desktop Menu */}
-          <ul className="hidden md:flex space-x-6 font-semibold text-gray-700 lg:text-xl">
+          <ul className="hidden lg:flex space-x-6 font-semibold text-gray-700 lg:text-xl">
             <li>
               <a href="#home" className="hover:text-green-600 lg:text-xl">
                 Home
@@ -137,63 +137,63 @@ const Home = () => {
           </ul>
 
           {/* Mobile Menu Button */}
-          <button className="md:hidden" onClick={() => setIsOpen(!isOpen)}>
+          <button className="lg:hidden" onClick={() => setIsOpen(!isOpen)}>
             {isOpen ? <X size={32} /> : <Menu size={32} />}
           </button>
         </div>
 
         {/* Mobile Menu */}
         {isOpen && (
-          <ul className="md:hidden flex flex-col items-center justify-self-end space-y-10 bg-blue-50 p-4 rounded-lg text-gray-700 font-semibold lg:text-xl w-65 h-screen z-99999999">
-            <li>
+          <ul className="lg:hidden flex flex-col items-left justify-self-end space-y-7 bg-blue-50 p-4 rounded-lg text-gray-700 font-semibold lg:text-xl md:w-90 w-65 h-screen z-99999999">
+            <li className="hover:bg-green-600 hover:text-white rounded-2xl ps-10 py-3 transition-all">
               <a
                 href="#home"
-                className="hover:text-green-600 lg:text-xl text-xl"
+                className="lg:text-xl text-xl py-4"
                 onClick={toggleSidebar}
               >
                 Home
               </a>
             </li>
-            <li>
+            <li className="hover:bg-green-600 hover:text-white rounded-2xl ps-10 py-3 transition-all">
               <a
                 href="#about"
-                className="hover:text-green-600 lg:text-xl text-xl"
+                className="lg:text-xl text-xl"
                 onClick={toggleSidebar}
               >
                 About-Us
               </a>
             </li>
-            <li>
+            <li className="hover:bg-green-600 hover:text-white rounded-2xl ps-10 py-3 transition-all">
               <a
                 href="#service"
-                className="hover:text-green-600 lg:text-xl text-xl"
+                className="lg:text-xl text-xl"
                 onClick={toggleSidebar}
               >
                 Services
               </a>
             </li>
-            <li>
+            <li className="hover:bg-green-600 hover:text-white rounded-2xl ps-10 py-3 transition-all">
               <a
                 href="#service"
-                className="hover:text-green-600 lg:text-xl text-xl"
+                className="lg:text-xl text-xl"
                 onClick={toggleSidebar}
               >
                 Product Suite
               </a>
             </li>
-            <li>
+            <li className="hover:bg-green-600 hover:text-white rounded-2xl ps-10 py-3 transition-all">
               <a
                 href="#service"
-                className="hover:text-green-600 lg:text-xl text-xl"
+                className="lg:text-xl text-xl"
                 onClick={toggleSidebar}
               >
                 Blog
               </a>
             </li>
-            <li>
+            <li className="hover:bg-green-600 hover:text-white rounded-2xl ps-10 py-3 transition-all">
               <a
                 href="#service"
-                className="hover:text-green-600 lg:text-xl text-xl"
+                className="lg:text-xl text-xl"
                 onClick={toggleSidebar}
               >
                 Business Opportunity: How It Works
