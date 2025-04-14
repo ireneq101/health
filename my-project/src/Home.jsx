@@ -144,8 +144,8 @@ const Home = () => {
 
         {/* Mobile Menu */}
         {isOpen && (
-          <ul className="lg:hidden flex flex-col items-left justify-self-end space-y-7 bg-blue-50 p-4 rounded-lg text-gray-700 font-semibold lg:text-xl md:w-90 w-65 h-screen z-99999999">
-            <li className="hover:bg-green-600 hover:text-white rounded-2xl ps-10 py-3 transition-all">
+          <ul className="lg:hidden flex flex-col items-left justify-self-end space-y-5 bg-blue-50 p-4 rounded-lg text-gray-700 font-semibold lg:text-xl md:w-90 w-65 h-screen z-99999999 scroll">
+            <li className="hover:bg-green-600 hover:text-white rounded-2xl ps-5 py-3 transition-all">
               <a
                 href="#home"
                 className="lg:text-xl text-xl py-4"
@@ -154,7 +154,7 @@ const Home = () => {
                 Home
               </a>
             </li>
-            <li className="hover:bg-green-600 hover:text-white rounded-2xl ps-10 py-3 transition-all">
+            <li className="hover:bg-green-600 hover:text-white rounded-2xl ps-5 py-3 transition-all">
               <a
                 href="#about"
                 className="lg:text-xl text-xl"
@@ -163,7 +163,7 @@ const Home = () => {
                 About-Us
               </a>
             </li>
-            <li className="hover:bg-green-600 hover:text-white rounded-2xl ps-10 py-3 transition-all">
+            <li className="hover:bg-green-600 hover:text-white rounded-2xl ps-5 py-3 transition-all">
               <a
                 href="#service"
                 className="lg:text-xl text-xl"
@@ -172,7 +172,7 @@ const Home = () => {
                 Services
               </a>
             </li>
-            <li className="hover:bg-green-600 hover:text-white rounded-2xl ps-10 py-3 transition-all">
+            <li className="hover:bg-green-600 hover:text-white rounded-2xl ps-5 py-3 transition-all">
               <a
                 href="#service"
                 className="lg:text-xl text-xl"
@@ -181,7 +181,7 @@ const Home = () => {
                 Product Suite
               </a>
             </li>
-            <li className="hover:bg-green-600 hover:text-white rounded-2xl ps-10 py-3 transition-all">
+            <li className="hover:bg-green-600 hover:text-white rounded-2xl ps-5 py-3 transition-all">
               <a
                 href="#service"
                 className="lg:text-xl text-xl"
@@ -190,7 +190,7 @@ const Home = () => {
                 Blog
               </a>
             </li>
-            <li className="hover:bg-green-600 hover:text-white rounded-2xl ps-10 py-3 transition-all">
+            <li className="hover:bg-green-600 hover:text-white rounded-2xl ps-5 py-3 transition-all">
               <a
                 href="#service"
                 className="lg:text-xl text-xl"
@@ -609,12 +609,12 @@ const Home = () => {
           >
             THE PROMISE
           </h2>
-          <div className="m-auto w-xl">
-            <p className="text-gray-900 lg:text-xl text-left">
+          <div className="m-auto md:w-xl">
+            <p className="text-gray-900 lg:text-xl text-left ps-20 lg:ps-10">
               This isn't a Side Hustle-It's your Exit Ticket from the Grind.{" "}
               <br />
             </p>
-            <p className="mt-4 text-gray-900 lg:text-xl text-left">
+            <p className="mt-4 text-gray-900 lg:text-xl text-left ps-20 lg:ps-10">
               Retire Early,Retire Rich,and Leave a Legacy that Outlives You.
             </p>
           </div>
@@ -624,8 +624,8 @@ const Home = () => {
       {/* Contact Us */}
       <footer className="bg-green-950 text-center" id="contact">
         <div className="flex flex-col md:flex-row gap-15 py-10 px-10 text-center">
-          <div className="md:w-1/2 text-white text-left ps-7">
-            <div className="w-100 mb-6">
+          <div className="md:w-1/2 sm:w-70 text-white text-left lg:ps-7">
+            <div className="lg:w-100 mb-6">
               <img src="Images/official-logo.png" alt="" srcset="" />
             </div>
             <h2 className="lg:text-4xl text-3xl font-semibold mb-6 text-transform: uppercase">
