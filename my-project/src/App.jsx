@@ -6,7 +6,7 @@ function App() {
     <div>
       {/* <Router>
         <Routes> */}
-      <Hom />
+      <Home />
       {/* <Modal /> */}
       {/* </Routes>
       </Router> */}
