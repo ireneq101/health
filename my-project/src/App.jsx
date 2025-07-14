@@ -4,12 +4,8 @@ import Home from "./Home.jsx"
 function App() {
   return (
     <div>
-      {/* <Router>
-        <Routes> */}
       <Home />
-      {/* <Modal /> */}
-      {/* </Routes>
-      </Router> */}
+     {/* <Modal /> */}
     </div>
   );
 }

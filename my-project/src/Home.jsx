@@ -86,16 +86,16 @@ const Home = () => {
 
   return (
     <div className="font-sans bg-blue-50">
-      <nav className="bg-blue-50 h-25 text-gray-700 lg:p-2 lg:px-15 sticky top-0 z-50 scroll-m-96">
-        <div className="container mx-auto flex justify-between items-center py-3 px-5 lg:p-0">
+      <nav className="bg-blue-50 h-25 md:h-23 text-gray-700 lg:p-2 lg:px-15 sticky top-0 z-50 scroll-m-96">
+        <div className="container mx-auto flex justify-between items-center py-3 px-5 md:px-9 lg:p-0">
           <div className="w-50">
             <a href="#home">
-              <img className="w-25" src="Images/logo.png" alt="" />
+              <img className="w-24 md:w-20" src="Images/logo.png" alt="" />
             </a>
           </div>
 
           {/* Desktop Menu */}
-          <ul className="hidden lg:flex space-x-6 font-semibold text-gray-700 lg:text-xl">
+          <ul className="hidden lg:flex space-x-0 font-semibold text-gray-700 lg:space-x-4 lg:text-lg">
             <li>
               <a href="#home" className="hover:text-green-600 lg:text-xl">
                 Home
@@ -214,7 +214,7 @@ const Home = () => {
 
       {/* Hero Section */}
       <section
-        className="h-screen bg-[url('/Images/team.jpeg')] bg-cover bg-center bg-no-repeat bg-blend-overlay bg-zinc-700 bg-fixed  flex items-center justify-center text-white text-center p-10"
+        className="h-screen bg-[url('/Images/team.jpeg')] bg-cover bg-center bg-no-repeat bg-blend-overlay bg-zinc-700 bg-fixed  flex items-center justify-center text-white text-center p-10 md:h-155"
         id="home"
       >
         <div className="max-w-7xl">
@@ -609,12 +609,12 @@ const Home = () => {
           >
             THE PROMISE
           </h2>
-          <div className="m-auto md:w-xl">
-            <p className="text-gray-900 lg:text-xl text-left ps-20 lg:ps-10">
+          <div className="m-auto md:w-xl min-sm:lg">
+            <p className="text-gray-900 lg:text-xl text-left ps-20 max-sm:ps-5 lg:ps-10">
               This isn't a Side Hustle-It's your Exit Ticket from the Grind.{" "}
               <br />
             </p>
-            <p className="mt-4 text-gray-900 lg:text-xl text-left ps-20 lg:ps-10">
+            <p className="mt-4 text-gray-900 lg:text-xl text-left ps-20 max-sm:ps-5 lg:ps-10">
               Retire Early,Retire Rich,and Leave a Legacy that Outlives You.
             </p>
           </div>
